@@ -19,7 +19,15 @@ const colors = {
   snow: 'white',
   ember: 'rgba(164, 0, 48, 0.5)',
   fire: '#e73536',
-  drawer: 'rgba(30, 30, 29, 0.95)'
+  drawer: 'rgba(30, 30, 29, 0.95)',
+
+  // Helio colors
+  red: '#ff0000',
+  redSecondary: '#ce2c2e',
+  black: '#000000',
+  blackSecondary: '#1f1f1f',
+  white: '#ffffff',
+  grey: '#f0f0f0',
 }
 
 export default colors
