@@ -22,12 +22,11 @@ const colors = {
   drawer: 'rgba(30, 30, 29, 0.95)',
 
   // Helio colors
-  red: '#ff0000',
-  redSecondary: '#ce2c2e',
-  black: '#000000',
-  blackSecondary: '#1f1f1f',
-  white: '#ffffff',
-  grey: '#f0f0f0',
+  helioRed: '#ED1F24',
+  helioRedSecondary: '#CE2C2E',
+  helioBlack: '#1E1E1E',
+  helioBlackSecondary: '#1F1F1F',
+  helioGrey: '#5B5C5C',
 }
 
 export default colors
