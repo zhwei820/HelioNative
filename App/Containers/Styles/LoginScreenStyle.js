@@ -5,8 +5,8 @@ import { Colors, Metrics } from '../../Themes'
 
 export default StyleSheet.create({
   container: {
-    paddingTop: 70,
-    backgroundColor: Colors.background
+    paddingTop: 100,
+    backgroundColor: Colors.helioBlack
   },
   form: {
     backgroundColor: Colors.snow,
@@ -40,7 +40,7 @@ export default StyleSheet.create({
     flex: 1,
     borderWidth: 1,
     borderColor: Colors.charcoal,
-    backgroundColor: Colors.panther,
+    backgroundColor: Colors.helioBlackSecondary,
     padding: 6
   },
   loginText: {
@@ -49,6 +49,8 @@ export default StyleSheet.create({
   },
   topLogo: {
     alignSelf: 'center',
-    resizeMode: 'contain'
+    resizeMode: 'contain',
+    width: 250,
+    height: 250
   }
 })

@@ -89,7 +89,7 @@ class UsageExamplesScreen extends React.Component {
         {this.renderHeader(I18n.t('rnVectorIcons'))}
         <View style={styles.groupContainer}>
           <TouchableOpacity onPress={this.handlePressRocket}>
-            <Icon name='rocket' size={Metrics.icons.medium} color={Colors.ember} />
+            <Icon name='rocket' size={Metrics.icons.medium} color={Colors.helioGrey} />
           </TouchableOpacity>
           <TouchableOpacity onPress={this.handlePressSend}>
             <Icon name='send' size={Metrics.icons.medium} color={Colors.error} />
@@ -98,7 +98,7 @@ class UsageExamplesScreen extends React.Component {
             <Icon name='star' size={Metrics.icons.medium} color={Colors.snow} />
           </TouchableOpacity>
           <Icon name='trophy' size={Metrics.icons.medium} color={Colors.error} />
-          <Icon name='warning' size={Metrics.icons.medium} color={Colors.ember} />
+          <Icon name='warning' size={Metrics.icons.medium} color={Colors.helioGrey} />
         </View>
         <View style={styles.groupContainer}>
           <Icon.Button name='facebook' style={styles.facebookButton} backgroundColor={Colors.facebook} onPress={() => window.alert('Facebook')}>
@@ -108,7 +108,7 @@ class UsageExamplesScreen extends React.Component {
         {this.renderHeader(I18n.t('rnAnimatable'))}
         <View style={styles.groupContainer}>
           <Animatable.Text animation='fadeIn' iterationCount='infinite' direction='alternate' style={styles.subtitle}>{I18n.t('rnAnimatable')}</Animatable.Text>
-          <Animatable.Image animation='pulse' iterationCount='infinite' source={Images.logo} />
+          <Animatable.Image animation='pulse' iterationCount='infinite' source={Images.helioSymbolRedSmall} />
           <Animatable.View animation='jello' iterationCount='infinite' >
             <Icon name='cab' size={Metrics.icons.medium} color={Colors.snow} />
           </Animatable.View>

@@ -4,10 +4,10 @@ import {Colors} from '../../Themes/'
 
 export default {
   container: {
-    flex: 1
+    flex: 1,
   },
   navBar: {
-    backgroundColor: Colors.background
+    backgroundColor: Colors.helioBlack
   },
   title: {
     color: Colors.snow
