@@ -84,11 +84,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 23
-<<<<<<< HEAD
     buildToolsVersion "23.0.3"
-=======
-    buildToolsVersion "23.0.1"
->>>>>>> a7d5881859806f97ff019d3ffcda6d615abd9d01
 
     defaultConfig {
         applicationId "com.helionative"
